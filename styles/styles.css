@@ -1,0 +1,59 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+
+  .navbar .logo a {
+    color: #f4ff80;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Efecto hover con color */
+  .nav-links a:hover {
+    color: #f4ff80;
+  }
+  
+
+  /* Efectos en el scroll */
+  section:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
